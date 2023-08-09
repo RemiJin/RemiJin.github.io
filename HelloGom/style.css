@@ -1,0 +1,112 @@
+/*HEADER*/
+.gomnav {
+    font-family: 'Gaegu', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color:white
+}
+
+.gomheader {
+    font-family: 'Gaegu', sans-serif;
+    font-size: 48pt;
+    font-weight: bold;
+    text-align: center;
+    position: sticky;
+    background-color: white;
+    margin: 40px
+}
+
+.gombtn:hover {
+    color:thistle
+}
+
+/*HOME*/
+.contentHome {
+    font-family: 'Inter' sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gomImg {
+    height: 160px;
+    width: 160px;
+    margin: 8px;
+    object-fit: cover;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
+
+/*ABOUT*/
+.contentAbout {
+    font-family: 'Inter' sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 110%;
+}
+
+
+#gomProfileImg {
+    height: 320px;
+    margin-right: 4px;
+}
+#remiProfileImg {
+    height: 320px;
+    margin-right: 32px;
+    border-radius: 100%;
+}
+
+
+.profile {
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+.name {
+    font-weight: 800;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.description {
+    width: 520px;
+    text-align: justify;
+    margin-top: 40px;
+}
+
+
+.sns {
+    text-decoration: none;
+    margin-top: 8px;
+}
+.fa-brands{
+    color:black;
+    margin-right: 4px;
+}
+.fa-brands:hover {
+    color:thistle;
+    cursor: pointer;
+}
+a { text-decoration: none; color: black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
