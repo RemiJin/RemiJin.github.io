@@ -26,6 +26,22 @@
     color:thistle
 }
 
+/*FOOTER*/
+.footer {
+    font-family: 'Inter', sans-serif;
+    color:grey;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+    line-height: 100%;
+    margin-top: 64px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
 /*HOME*/
 .contentHome {
     font-family: 'Inter' sans-serif;
